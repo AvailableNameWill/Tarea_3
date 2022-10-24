@@ -76,7 +76,16 @@ public class View_Peoples_Activity extends AppCompatActivity {
         btnView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //if(personas != null)
+                if(personas != null){
+                    Intent intent = new Intent(getApplicationContext(), View_People_Activity.class);
+                    View_People_Activity.personas.setId(personas.getId());
+                    View_People_Activity.personas.setNombres(personas.getNombres());
+                    View_People_Activity.personas.setApellidos(personas.getApellidos());
+                    View_People_Activity.personas.setEdad(personas.getEdad());
+                    View_People_Activity.personas.setCorreo(personas.getCorreo());
+                    View_People_Activity.personas.setDireccion(personas.getDireccion());
+                    startActivity(intent);
+                }else Toast.makeText(View_Peoples_Activity.this, "!!!!Alerta " + "\n No ha seleccionado ningun campo", Toast.LENGTH_SHORT).show();
             }
         });
     }
