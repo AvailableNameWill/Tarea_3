@@ -1,12 +1,12 @@
 package com.example.tarea_3.tablas;
 
 public class personas {
-    private Integer id;
-    private String nombres;
-    private String apellidos;
-    private Integer edad;
-    private String correo;
-    private String direccion;
+    private Integer id = 0;
+    private String nombres = "";
+    private String apellidos = "";
+    private Integer edad = 0;
+    private String correo = "";
+    private String direccion = "";
 
     public personas(){}
 

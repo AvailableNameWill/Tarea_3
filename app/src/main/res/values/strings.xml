@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Tarea_3</string>
+    <string name="resp"> Responsable : </string>
+    <string name="respName"> Carlos Wilberto Rodriguez Ruiz </string>
+    <string name="numC"> # Cuenta </string>
+    <string name="Cnum"> 201910020179 </string>
+    <string name="namesM"> Nombres </string>
+    <string name="snamesM"> Apellidos </string>
+    <string name="ageM"> Edad </string>
+    <string name="emailM"> Correo Electronico </string>
+    <string name="dirM"> Direccion </string>
+    <string name="saveM"> Guardar </string>
+    <string name="viewPerson"> Ver Persona </string>
+    <string name="modVP"> Modificar </string>
+    <string name="delVP"> Eliminar </string>
+    <string name="backVP"> Atras </string>
+    <string name="start"> Iniciar </string>
+    <string name="listP"> Ver Lista Personas </string>
 </resources>

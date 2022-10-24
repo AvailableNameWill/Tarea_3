@@ -22,6 +22,4 @@ public class Conexion extends SQLiteOpenHelper {
         db.execSQL(transacs.DropTblPersona);
         onCreate(db);
     }
-
-
 }
